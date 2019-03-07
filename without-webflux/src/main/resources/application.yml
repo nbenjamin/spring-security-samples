@@ -1,0 +1,40 @@
+spring:
+  profiles:
+    active: in-memory
+  application:
+    name: spring-security-sample
+
+server:
+  port: 8088
+---
+spring:
+  profiles: in-memory
+
+
+---
+spring:
+  profiles: jdbc
+
+  datasource:
+#    Its required from spring boot 2.0 onwards
+    initialization-mode: always
+    url: jdbc:postgresql://localhost:5432/demo-service
+    username: order
+    password: admin
+    driverClassName: org.postgresql.Driver
+
+
+---
+spring:
+  profiles: ldap
+
+  datasource:
+    #    Its required from spring boot 2.0 onwards
+    initialization-mode: never
+
+  ldap:
+    embedded:
+      port: 8299
+      ldif: classpath:ldap/accounts.ldif
+      base-dn: dc=example,dc=com
+

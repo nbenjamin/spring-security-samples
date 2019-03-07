@@ -1,0 +1,32 @@
+dn: dc=example,dc=com
+objectclass: top
+objectclass: domain
+objectclass: extensibleObject
+dc: example
+
+dn: ou=groups,dc=example,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: groups
+
+dn: ou=people,dc=example,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+dn: uid=ryan,ou=people,dc=example,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Ryan
+sn: Ben
+uid: ryan
+userPassword: $2a$10$jc/9ZGy6Sdx.LfhazhMW4eJeDhUmybhxvPOfjxtWlYkYEz8L4maJa
+
+
+dn: cn=user,ou=groups,dc=example,dc=com
+objectclass: top
+objectclass: groupOfUniqueNames
+cn: user
+uniqueMember: uid=ryan,ou=people,dc=example,dc=com
