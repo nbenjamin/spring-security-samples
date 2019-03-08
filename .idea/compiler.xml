@@ -6,15 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="withoutwebflux" />
-        <module name="withwebflux" />
+        <module name="filters-with-webflux" />
+        <module name="filters-without-webflux" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="with-webflux-authentication-basics-inmemory-jdbc-ldap" target="1.9" />
+      <module name="without-webflux-authentication-basics-inmemory-jdbc-ldap" target="1.9" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="withoutwebflux" options="-parameters" />
-      <module name="withwebflux" options="-parameters" />
+      <module name="filters-with-webflux" options="-parameters" />
+      <module name="filters-without-webflux" options="-parameters" />
+      <module name="with-webflux-authentication-basics-inmemory-jdbc-ldap" options="-parameters" />
+      <module name="without-webflux-authentication-basics-inmemory-jdbc-ldap" options="-parameters" />
     </option>
   </component>
 </project>

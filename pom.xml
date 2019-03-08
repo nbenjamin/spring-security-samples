@@ -19,8 +19,8 @@
   </properties>
 
   <modules>
-    <module>without-webflux</module>
-    <module>with-webflux</module>
+    <module>without-webflux-authentication-basics-inmemory-jdbc-ldap</module>
+    <module>with-webflux-authentication-basics-inmemory-jdbc-ldap</module>
   </modules>
 
 

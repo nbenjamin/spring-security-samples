@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>filters-with-webflux</artifactId>
+  <artifactId>with-webflux-authentication-basics-inmemory-jdbc-ldap</artifactId>
 
   <dependencies>
     <dependency>
