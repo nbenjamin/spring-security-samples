@@ -21,6 +21,7 @@
   <modules>
     <module>without-webflux-authentication-basics-inmemory-jdbc-ldap</module>
     <module>with-webflux-authentication-basics-inmemory-jdbc-ldap</module>
+    <module>without-webflux-custom-userdetailservice</module>
   </modules>
 
 

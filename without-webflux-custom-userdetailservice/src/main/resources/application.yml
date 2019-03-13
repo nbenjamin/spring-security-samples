@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: custom-userdetailservice
+
+server:
+  port: 8088
+
+#logging:
+#  level:
+#    root: DEBUG
