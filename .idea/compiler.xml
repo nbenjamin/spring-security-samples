@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="customuserdetailservice" />
-        <module name="filters-with-webflux" />
-        <module name="filters-without-webflux" />
+        <module name="without-webflux-authentication-basics-inmemory-jdbc-ldap" />
+        <module name="without-webflux-actuator-endpoint-security" />
+        <module name="with-webflux-authentication-basics-inmemory-jdbc-ldap" />
+        <module name="custom-userdetailservice" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="with-webflux-authentication-basics-inmemory-jdbc-ldap" target="1.9" />
-      <module name="without-webflux-authentication-basics-inmemory-jdbc-ldap" target="1.9" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="9" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="customuserdetailservice" options="-parameters" />
-      <module name="filters-with-webflux" options="-parameters" />
-      <module name="filters-without-webflux" options="-parameters" />
+      <module name="custom-userdetailservice" options="-parameters" />
       <module name="with-webflux-authentication-basics-inmemory-jdbc-ldap" options="-parameters" />
+      <module name="without-webflux-actuator-endpoint-security" options="-parameters" />
       <module name="without-webflux-authentication-basics-inmemory-jdbc-ldap" options="-parameters" />
     </option>
   </component>

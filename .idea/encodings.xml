@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/with-webflux-authentication-basics-inmemory-jdbc-ldap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/without-webflux-actuator-endpoint-security" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/without-webflux-authentication-basics-inmemory-jdbc-ldap" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/without-webflux-custom-userdetailservice" charset="UTF-8" />
   </component>
