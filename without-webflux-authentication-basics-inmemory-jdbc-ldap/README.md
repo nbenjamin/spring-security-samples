@@ -39,7 +39,7 @@ To Start both postgreSQL and Adminer, execute the following command
 
 There are two profiles
   1. in-memory - will use inMemory UserDetailsManager.
-  2. jdbc      - will postgreSQL, please docker-compose before executing this.
+  2. jdbc      - will postgreSQL, please run `docker-compose` before executing this.
 
 
 #### Running with profile `ldap`
