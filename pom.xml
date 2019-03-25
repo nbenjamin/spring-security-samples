@@ -23,6 +23,7 @@
     <module>with-webflux-authentication-basics-inmemory-jdbc-ldap</module>
     <module>without-webflux-custom-userdetailservice</module>
     <module>without-webflux-actuator-endpoint-security</module>
+      <module>without-webflux-oauth2-keycloak</module>
   </modules>
 
 

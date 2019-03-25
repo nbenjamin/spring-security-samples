@@ -1,0 +1,25 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          master:
+            client-id: demo-client
+            client-secret: a47963f2-0aea-4237-914f-afc57cec2043
+            provider: keycloak
+
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8080/auth/realms/demo
+
+server:
+  port: 8085
+logging:
+  level:
+    root: DEBUG
+
+#    org.springframework: DEBUG
+
+#  freemarker:
+#    template-loader-path: classpath:/templates
+#    suffix: .ftl
