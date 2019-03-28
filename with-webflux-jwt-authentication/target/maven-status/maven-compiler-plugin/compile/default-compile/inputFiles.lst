@@ -1,0 +1,14 @@
+/Users/nbenjamine/Documents/personal/learning/spring-security-samples/with-webflux-jwt-authentication/src/main/java/com/nbenja/jwtexample/adapter/datastore/UserRepository.java
+/Users/nbenjamine/Documents/personal/learning/spring-security-samples/with-webflux-jwt-authentication/src/main/java/com/nbenja/jwtexample/security/SecurityConfig.java
+/Users/nbenjamine/Documents/personal/learning/spring-security-samples/with-webflux-jwt-authentication/src/main/java/com/nbenja/jwtexample/security/JWTSecurityContextRepository.java
+/Users/nbenjamine/Documents/personal/learning/spring-security-samples/with-webflux-jwt-authentication/src/main/java/com/nbenja/jwtexample/adapter/api/BookHandler.java
+/Users/nbenjamine/Documents/personal/learning/spring-security-samples/with-webflux-jwt-authentication/src/main/java/com/nbenja/jwtexample/domain/Book.java
+/Users/nbenjamine/Documents/personal/learning/spring-security-samples/with-webflux-jwt-authentication/src/main/java/com/nbenja/jwtexample/JWTAuthenticationApplication.java
+/Users/nbenjamine/Documents/personal/learning/spring-security-samples/with-webflux-jwt-authentication/src/main/java/com/nbenja/jwtexample/adapter/datastore/BookRepository.java
+/Users/nbenjamine/Documents/personal/learning/spring-security-samples/with-webflux-jwt-authentication/src/main/java/com/nbenja/jwtexample/security/JWTAuthenticationManager.java
+/Users/nbenjamine/Documents/personal/learning/spring-security-samples/with-webflux-jwt-authentication/src/main/java/com/nbenja/jwtexample/config/JWTAuthenticationConfiguration.java
+/Users/nbenjamine/Documents/personal/learning/spring-security-samples/with-webflux-jwt-authentication/src/main/java/com/nbenja/jwtexample/security/JWTProvider.java
+/Users/nbenjamine/Documents/personal/learning/spring-security-samples/with-webflux-jwt-authentication/src/main/java/com/nbenja/jwtexample/service/BookServiceImpl.java
+/Users/nbenjamine/Documents/personal/learning/spring-security-samples/with-webflux-jwt-authentication/src/main/java/com/nbenja/jwtexample/domain/User.java
+/Users/nbenjamine/Documents/personal/learning/spring-security-samples/with-webflux-jwt-authentication/src/main/java/com/nbenja/jwtexample/adapter/api/BookRouterConfiguration.java
+/Users/nbenjamine/Documents/personal/learning/spring-security-samples/with-webflux-jwt-authentication/src/main/java/com/nbenja/jwtexample/domain/BookService.java

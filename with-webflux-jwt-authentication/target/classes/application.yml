@@ -1,0 +1,17 @@
+server:
+  port: 8086
+
+#spring:
+#  security:
+#    user:
+#      name: admin
+#      password: admin
+
+jwt:
+  enable: true
+  secret-key: keypasswordkeypasswordkeypasswordkeypassword
+  validity-milliseconds: 36000
+logging:
+  level:
+    org.springframework: DEBUG
+    io.jsonwebtoken: DEBUG

@@ -7,19 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="without-webflux-actuator-endpoint-security" />
+        <module name="with-webflux-jwt-authentication" />
+        <module name="with-webflux-authentication-basics-inmemory-jdbc-ldap" />
         <module name="without-webflux-authentication-basics-inmemory-jdbc-ldap" />
         <module name="without-webflux-oauth2-keycloak" />
-        <module name="with-webflux-authentication-basics-inmemory-jdbc-ldap" />
         <module name="custom-userdetailservice" />
-        <module name="without-webflux-actuator-endpoint-security" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="9" />
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="custom-userdetailservice" options="-parameters" />
       <module name="with-webflux-authentication-basics-inmemory-jdbc-ldap" options="-parameters" />
+      <module name="with-webflux-jwt-authentication" options="-parameters" />
       <module name="without-webflux-actuator-endpoint-security" options="-parameters" />
       <module name="without-webflux-authentication-basics-inmemory-jdbc-ldap" options="-parameters" />
       <module name="without-webflux-oauth2-keycloak" options="-parameters" />

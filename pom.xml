@@ -24,6 +24,7 @@
     <module>without-webflux-custom-userdetailservice</module>
     <module>without-webflux-actuator-endpoint-security</module>
       <module>without-webflux-oauth2-keycloak</module>
+      <module>with-webflux-jwt-authentication</module>
   </modules>
 
 
