@@ -98,7 +98,7 @@ for more details - [jwt.io](jwt.io)
 ### How to enable JWT with Spring Security
 
 **ServerSecurityContextRepository**  - In spring reactive application `SecurityContext` will be
-stored using this class. There are two types of implementations,
+stored in this class. There are two types of implementations,
 
 1. [NoOpServerSecurityContextRepository](https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/web/server/context/NoOpServerSecurityContextRepository.html) - Make application stateless.
 2. [WebSessionServerSecurityContextRepository](https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/web/server/context/WebSessionServerSecurityContextRepository.html) - Store SecurityContext in webSession.
