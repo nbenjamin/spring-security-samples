@@ -34,7 +34,7 @@ spring:
 You can use [postman](https://www.getpostman.com/) or curl. 
 
 _Postman_
-![Basic-Auth](docs/POSTMAN-BasicAuth.png)
+![Basic-Auth](https://github.com/nbenjamin/spring-security-samples/blob/master/with-webflux-jwt-authentication/docs/POSTMAN-BasicAuth.png)
 
 _CURL_
 ```bash
@@ -117,12 +117,12 @@ Here is the custom configuration
 
 @Override
 public Mono<SecurityContext> load(ServerWebExchange exchange) {
-    return Mono.justOrEmpty(exchange.getRequest().getHeaders().getFirst(AUTHORIZATION))
-            .filter(s -> s.startsWith(BEARER))
-            .map(subs -> subs.substring(BEARER.length()))
+    return Mono.justOrEmpty(exchange.getRequest().getHeaders().getFirst(AUTHORIZATION)) (1)
+            .filter(s -> s.startsWith(BEARER)) (2)
+            .map(subs -> subs.substring(BEARER.length())) (3)
             .flatMap(t -> Mono.just(new UsernamePasswordAuthenticationToken(t, t, 
-                    Collections.singletonList(new SimpleGrantedAuthority("ROLE_USER")))))
-            .flatMap(a -> authenticationManager.authenticate(a).map(SecurityContextImpl::new));
+                    Collections.singletonList(new SimpleGrantedAuthority("ROLE_USER"))))) (4)
+            .flatMap(a -> authenticationManager.authenticate(a).map(SecurityContextImpl::new)); (5)
 }
     
 ```
@@ -187,4 +187,4 @@ if the user is valid then you will get something like this
 Once you have this token you can access other endpoints using this token
 
 Postman
-![Basic-Auth](docs/POSTMAN-JWTToken.png)
+![Basic-Auth](https://github.com/nbenjamin/spring-security-samples/blob/master/with-webflux-jwt-authentication/docs/POSTMAN-JWTToken.png)
